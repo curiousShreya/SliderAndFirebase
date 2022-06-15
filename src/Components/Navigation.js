@@ -7,7 +7,7 @@ function Navigation() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/SliderAndFirebase">
             Test Assignment
           </Link>
           <button
@@ -29,12 +29,12 @@ function Navigation() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="/faq">
+                <Link class="nav-link" to="/SliderAndFirebase/faq">
                   FAQ
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="/contact">
+                <Link class="nav-link" to="/SliderAndFirebase/contact">
                   Contact
                 </Link>
               </li>

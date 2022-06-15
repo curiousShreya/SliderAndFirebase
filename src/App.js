@@ -10,10 +10,10 @@ function App() {
     <div>
       <Router>
         <Routes>
-             <Route path='/' exact element={<Navigation />} />
-             <Route path="/about" element={<About />} />
-             <Route path="/contact" element={<Contact />} />
-             <Route path="/faq" element={<Faq />} />
+             <Route path="/SliderAndFirebase" exact element={<Navigation />} />
+             <Route path="SliderAndFirebase/about" exact element={<About />} />
+             <Route path="SliderAndFirebase/contact" exact element={<Contact />} />
+             <Route path="SliderAndFirebase/faq" exact element={<Faq />} />
         </Routes>
 
       </Router>
