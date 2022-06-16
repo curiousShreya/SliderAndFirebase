@@ -22,19 +22,19 @@ function Navigation() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/SliderAndFirebase/about">
+            <ul className="nav justify-content-center">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/SliderAndFirebase/about">
                   About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/SliderAndFirebase/faq">
+              <li className="nav-item">
+                <Link className="nav-link" to="/SliderAndFirebase/faq">
                   FAQ
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/SliderAndFirebase/contact">
+              <li className="nav-item">
+                <Link className="nav-link" to="/SliderAndFirebase/contact">
                   Contact
                 </Link>
               </li>
