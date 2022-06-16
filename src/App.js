@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Routes>
              <Route path="/SliderAndFirebase" exact element={<Navigation />} />
-             <Route path="SliderAndFirebase/about" exact element={<About />} />
-             <Route path="SliderAndFirebase/contact" exact element={<Contact />} />
-             <Route path="SliderAndFirebase/faq" exact element={<Faq />} />
+             <Route path="/SliderAndFirebase/about" exact element={<About />} />
+             <Route path="/SliderAndFirebase/contact" exact element={<Contact />} />
+             <Route path="/SliderAndFirebase/faq" exact element={<Faq />} />
         </Routes>
 
       </Router>

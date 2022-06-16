@@ -24,7 +24,7 @@ function Navigation() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul class="nav justify-content-center">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/about">
+                <Link class="nav-link active" aria-current="page" to="/SliderAndFirebase/about">
                   About
                 </Link>
               </li>
